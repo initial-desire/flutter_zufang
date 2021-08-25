@@ -13,6 +13,10 @@ class CommonTag extends StatelessWidget {
         return CommonTag.build(title, color: Colors.red,backgroundColor: Colors.red[50],);
       case '精装修':
         return CommonTag.build(title, color: Colors.blue,backgroundColor: Colors.blue[50],);
+      case '新装修':
+        return CommonTag.build(title, color: Colors.blue,backgroundColor: Colors.blue[50],);
+      case '近地铁':
+        return CommonTag.build(title, color: Colors.green,backgroundColor: Colors.green[50],);
       default:
         return CommonTag.build(title);
     }
@@ -22,7 +26,7 @@ class CommonTag extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(right: 4),
-      padding: EdgeInsets.only(left: 4, right: 4, top: 2, bottom: 2),
+      padding: EdgeInsets.only(left: 4, right: 4, top: 2, bottom: 3),
       decoration: BoxDecoration(color: backgroundColor, borderRadius: BorderRadius.circular(8)),
       child: Text(title, style: TextStyle(fontSize: 10, color: color),),
     );

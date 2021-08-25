@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:huan/pages/home/tab_index/index_recommond.dart';
 import 'package:huan/widgets/common_swipper.dart';
+import 'package:huan/widgets/search_bar/search_bar_index.dart';
 
 import 'info/info.dart';
 import 'tab_index/index_navigator.dart';
@@ -16,7 +17,10 @@ class _TableIndexState extends State<TableIndex> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('首页'),),
+      appBar: AppBar(title: SearchBar(showLocation: true,showMap: true,
+        onSearch: (){
+          Navigator.of(context).pushNamed('search');
+        },),backgroundColor: Colors.white,),
       body: ListView(
         children: [
           CommonSwiper(),

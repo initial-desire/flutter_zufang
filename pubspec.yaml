@@ -26,6 +26,9 @@ dependencies:
 
   fluro: "^1.5.1"
   flutter_swiper: "^1.1.6"
+  fluttertoast: ^3.1.3
+  image_picker: ^0.6.1+4
+  share: ^0.6.3+1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -52,6 +55,28 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - static/images/user_icon.png
+    - static/icon/map.png
+    - static/icon/user.png
+
+    - static/icon/wallet.png
+    - static/icon/house.png
+    - static/icon/message.png
+    - static/icon/favorite.png
+    - static/icon/ordered.png
+    - static/icon/record.png
+    - static/icon/idCard.png
+    - static/icon/contract.png
+
+    - static/icon/room/shafa.png
+    - static/icon/room/WiFi.png
+    - static/icon/room/linyu.png
+    - static/icon/room/dianshi.png
+    - static/icon/room/nuanqi.png
+    - static/icon/room/bingxiang.png
+    - static/icon/room/tianranqi.png
+    - static/icon/room/kongtiao.png
+    - static/icon/room/xiyiji.png
+    - static/icon/room/yigui.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

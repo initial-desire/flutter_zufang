@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:huan/pages/home/tab_index.dart';
 import 'package:huan/pages/info/index.dart';
+import 'package:huan/pages/mine/index.dart';
 import 'package:huan/pages/search/searcn_index.dart';
 import 'package:huan/widgets/page_content.dart';
 
@@ -9,7 +10,7 @@ List<Widget> tabViewList = [
   TableIndex(), //首页
   TabSearch(),  //搜索
   News(), // 资讯
-  PageContent(name: '我的',),
+  Mine(), // 我的
 ];
 
 // 四个BottomNavigationBarItem
